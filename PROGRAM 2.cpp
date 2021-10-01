@@ -3,19 +3,19 @@ using namespace std;
 class Student
 {
     char name[50];
-    int rn;
+    int rollno;
 public:
 Student()
     {
 cout<< "enter name" <<endl;
 gets(name);
 cout<<"enter roll no"<<endl;
-cin>>rn;
+cin>>rollno;
     }
     void display()
     {
 cout<<"Name: "<<name<<endl;
-cout<<"Roll no:" <<rn<<endl;
+cout<<"Roll no:" <<rollno<<endl;
     }
 };
 
