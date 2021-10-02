@@ -7,7 +7,7 @@ int main()
     cout<<"enter first integer : ";
     cin>>a;
     cout<<"enter second integer : ";
-
+    cin>>b;
     //the idea is to use the bitwise XOR operator.
     a = a^b;
     b = b^a;
