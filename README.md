@@ -1,3 +1,6 @@
 # Basic C++ programs
-For Beginners learning Git and git hub basics
+This repo is for Beginners learning Git and git hub basics
 Add C++/C programs only
+Spams Not Allowed 
+
+Happy Contributing :)
