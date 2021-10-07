@@ -1,24 +1,16 @@
-#include <iostream>
+#include <bits/stdc++.h>
 using namespace std;
  
-// Function to check sum
-// of digit using tail recursion
-int sum_of_digit(int n, int val)
-{
-    if (n < 10)
-    {
-        val = val + n;
-        return val;
-    }
-    return sum_of_digit(n / 10, (n % 10) + val);
+int countDigit(long long n) {
+  return floor(log10(n) + 1);
 }
  
-int main()
+int main(void)
 {
-    int num = 12345;
-    int result = sum_of_digit(num, 0);
-     
-    cout << "Sum of digits is " << result;
-     
+    long long n;
+    cout << "Enter number : ";
+    cin>>n;
+    cout << "Number of digits : "
+         << countDigit(n);
     return 0;
 }
