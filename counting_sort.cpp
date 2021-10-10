@@ -29,4 +29,7 @@ int main()
         cin >> arr[i];
     }
     countingSort(arr, n);
+    cout << "after sorting: " << endl;
+    for (int i = 0; i < n; i++)
+        cout << arr[i] << " ";
 }
