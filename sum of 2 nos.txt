@@ -1,15 +1,16 @@
-add here
-#include<stdio.h>
+#include <stdio.h>
  
 int main() {
-   int a, b, sum;
+   int a;
+   int b;
+   int sum;
  
-   printf("\nEnter two no: ");
+   printf("Enter two integers: ");
    scanf("%d %d", &a, &b);
  
    sum = a + b;
  
-   printf("Sum : %d", sum);
+   printf("Sum: %d", sum);
  
-   return(0);
+   return 0;
 }
