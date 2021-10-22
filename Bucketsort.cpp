@@ -19,7 +19,7 @@ void bucketSort(float arr[], int n)
         for (int j = 0; j < b[i].size(); j++)
           arr[index++] = b[i][j];
 }
-int main()
+void main()
 {
     int n;
     cin>>n;
@@ -34,5 +34,4 @@ int main()
     cout << "\nAfter Sorting \n";
     for (int i=0; i<n; i++)
        cout << arr[i] << " ";
-    return 0;
 }
