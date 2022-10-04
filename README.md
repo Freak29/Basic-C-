@@ -5,6 +5,7 @@ Add C++/C programs only.
 Spams Not Allowed 
 
 Happy Contributing :)
-                  ![download1](https://user-images.githubusercontent.com/72217338/135746056-2e042012-f3a5-4853-847a-c5822f758e21.png)
+                        ![download](https://user-images.githubusercontent.com/72217338/193872521-4a6a8b9c-f8c8-4397-9fbb-190e15dee62e.jpg)
+
 
 ## C Programs
