@@ -2,7 +2,7 @@
 int main()
 {
  int a,qty,rate,total;
- printf("\nMENU CARD \nSelect your drink \n1.COFFEE \n2.TEA \n3.COLD COFFEE \n4.MILK SHAKE \n5.STALC\n");
+ printf("\nMENU CARD: \n Select your drink \n 1.COFFEE \n 2.TEA \n 3.COLD COFFEE \n 4.MILK SHAKE \n 5.STALC \n 6.Sprite");
  scanf("%d",&a);
  switch(a)
  {
@@ -41,9 +41,17 @@ int main()
     total=qty*rate;
     printf("\nTotal amount :%d",total);
     break;
+   case 6:
+    printf("\nYou have selected Sprite.\n Enter the quantity :");
+    scanf("%d",&qty);
+    rate=20;
+    total=qty*rate;
+    printf("\nTotal amount :%d",total);
+    break;
   default:
     printf("\nSorry Unavailable...%ds",a);
     break;
  }
+printf("Thank You For Chossing Us! Visit Again Soon!");
 return 0;
 }
