@@ -6,26 +6,28 @@ int main() {
   double first, second;
   printf("Enter an operator (+, -, *, /): ");
   scanf("%c", &op);
-  printf("Enter two operands: ");
-  scanf("%lf %lf", &first, &second);
+  printf("Enter first operand: \n");
+  scanf("%lf", &first);
+  printf("Enter second operand: \n");
+  scanf("%lf", &second);
 
   switch (op) {
     case '+':
-      printf("%.1lf + %.1lf = %.1lf", first, second, first + second);
+      printf("%.1lf + %.1lf = %.1lf \n", first, second, first + second);
       break;
     case '-':
-      printf("%.1lf - %.1lf = %.1lf", first, second, first - second);
+      printf("%.1lf - %.1lf = %.1lf \n", first, second, first - second);
       break;
     case '*':
-      printf("%.1lf * %.1lf = %.1lf", first, second, first * second);
+      printf("%.1lf * %.1lf = %.1lf \n", first, second, first * second);
       break;
     case '/':
-      printf("%.1lf / %.1lf = %.1lf", first, second, first / second);
+      printf("%.1lf / %.1lf = %.1lf \n", first, second, first / second);
       break;
-    // operator doesn't match any case constant
+    //operator doesn't match any case constant
     default:
-      printf("Error! operator is not correct");
+      printf("Error! Operator is not correct! Try Again! \n");
   }
-
+printf("See You Soon!");
   return 0;
 }
