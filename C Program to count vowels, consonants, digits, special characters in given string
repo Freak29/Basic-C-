@@ -41,6 +41,8 @@ int main()
     printf("\n Digits: %d",digits);
     printf("\n Space: %d", space);
     printf("\n Special: %d", special);
+    
+    printf("\n Bye!");
 
     return 0;
     
