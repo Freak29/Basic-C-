@@ -12,5 +12,6 @@ int main()
         printf ("\n %d * %d = %d", num, i, (num*i));  
     }  
     printf("\n Maths is Fun!");
+    printf("\n Naah! Just Kidding!");
     return 0;  
 }  
