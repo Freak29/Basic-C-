@@ -52,6 +52,6 @@ int main()
     printf("\nSorry Unavailable...%ds",a);
     break;
  }
-printf("Thank You For Chossing Us! Visit Again Soon!");
+printf("\nThank You For Chossing Us! Visit Again Soon!");
 return 0;
 }
