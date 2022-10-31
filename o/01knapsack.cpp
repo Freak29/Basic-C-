@@ -43,6 +43,7 @@ int main()
     int W = 50;
     int n = sizeof(val) / sizeof(val[0]);
     cout << knapSack(W, wt, val, n);
+ cout<<"BYE";
     return 0;
 }
  
